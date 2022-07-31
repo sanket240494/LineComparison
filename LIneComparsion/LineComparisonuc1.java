@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 public class LineComparisonuc1 {
     public static void main(String[] args) {
-        double X1, X2, Y1, Y2, Lenghtofline;
+        double X1;
+        double X2;
+        double Y1;
+        double Y2;
+        double Lenghtofline;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter point of X1");
         X1 = sc.nextDouble();
@@ -15,7 +19,7 @@ public class LineComparisonuc1 {
         System.out.println("Enter point of Y2");
         Y2 = sc.nextDouble();
 
-        Lenghtofline = Math.sqrt( (Math.pow((X2-X1),2)) + (Math.pow((Y2-Y1),2)) );
+        Lenghtofline = Math.sqrt((Math.pow((X2 - X1), 2)) + (Math.pow((Y2 - Y1), 2)));
         System.out.println(Lenghtofline);
     }
 }
